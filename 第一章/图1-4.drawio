@@ -1,65 +1,83 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
-  <diagram name="数据类型层级结构图" id="0">
-    <mxGraphModel dx="1394" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.4.0">
+  <diagram name="句法结构树_严谨规则版" id="syntax_tree_fix">
+    <mxGraphModel dx="759" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontStyle=1;fontSize=17;" value="数据类型" vertex="1">
-          <mxGeometry height="60" width="160" x="710" y="10" as="geometry" />
+        <mxCell id="S" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1E88E5;strokeWidth=2;fontSize=17;fillColor=#e3f2fd;" value="S" vertex="1">
+          <mxGeometry height="60" width="80" x="630" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontStyle=1;fontSize=17;" value="基本类型" vertex="1">
-          <mxGeometry height="60" width="160" x="450" y="160" as="geometry" />
+        <mxCell id="NP1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="NP" vertex="1">
+          <mxGeometry height="60" width="80" x="450" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontStyle=1;fontSize=17;" value="复合类型" vertex="1">
-          <mxGeometry height="60" width="160" x="950" y="160" as="geometry" />
+        <mxCell id="VP" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="VP" vertex="1">
+          <mxGeometry height="60" width="80" x="810" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="整数&lt;div&gt;（int）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="240" y="300" as="geometry" />
+        <mxCell id="N1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="N" vertex="1">
+          <mxGeometry height="60" width="80" x="450" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="浮点数&lt;div&gt;（float）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="390" y="300" as="geometry" />
+        <mxCell id="V" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="V" vertex="1">
+          <mxGeometry height="60" width="80" x="720" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="布尔&lt;div&gt;（bool）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="550" y="300" as="geometry" />
+        <mxCell id="NP2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="NP" vertex="1">
+          <mxGeometry height="60" width="80" x="900" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="字符/字符串&lt;div&gt;（char/string）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="700" y="300" as="geometry" />
+        <mxCell id="N2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" value="N" vertex="1">
+          <mxGeometry height="60" width="80" x="900" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="数组&lt;div&gt;（array/list）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="880" y="300" as="geometry" />
+        <mxCell id="W1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;fontSize=17;strokeColor=#2e7d32;" value="学生" vertex="1">
+          <mxGeometry height="50" width="100" x="440" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="字典&lt;div&gt;（dict/map）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="1060" y="300" as="geometry" />
+        <mxCell id="W2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;fontSize=17;strokeColor=#2e7d32;" value="读" vertex="1">
+          <mxGeometry height="50" width="100" x="710" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="对象&lt;div&gt;（object）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="130" x="1230" y="300" as="geometry" />
+        <mxCell id="W3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;fontSize=17;strokeColor=#2e7d32;" value="书" vertex="1">
+          <mxGeometry height="50" width="100" x="890" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-1" edge="1" parent="1" source="A" style="endArrow=block;fontSize=17;" target="B">
+        <mxCell id="eS1" edge="1" parent="1" source="S" style="endArrow=block;endFill=1;strokeWidth=2;curved=0;" target="NP1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-2" edge="1" parent="1" source="A" style="endArrow=block;fontSize=17;" target="C">
+        <mxCell id="eS2" edge="1" parent="1" source="S" style="endArrow=block;endFill=1;strokeWidth=2;" target="VP" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-3" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="D">
+        <mxCell id="rule1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1E88E5;fontStyle=1" value="S → NP VP" vertex="1">
+          <mxGeometry height="20" width="80" x="645" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eVP1" edge="1" parent="1" source="VP" style="endArrow=block;strokeWidth=2;" target="V" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-4" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="E">
+        <mxCell id="eVP2" edge="1" parent="1" source="VP" style="endArrow=block;strokeWidth=2;" target="NP2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-5" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="F">
+        <mxCell id="rule2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1E88E5;fontStyle=1" value="VP → V NP" vertex="1">
+          <mxGeometry height="20" width="80" x="810" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eNP1" edge="1" parent="1" source="NP1" style="endArrow=block;strokeWidth=1;dashed=0;fontSize=12;labelBackgroundColor=default;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#1E88E5;fontStyle=1;fillColor=none;gradientColor=none;" target="N1" value="NP → N">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-6" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="G">
+        <mxCell id="eNP2" edge="1" parent="1" source="NP2" style="endArrow=block;strokeWidth=1;dashed=0;fontSize=12;labelBackgroundColor=default;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#1E88E5;fontStyle=1;fillColor=none;gradientColor=none;" target="N2" value="NP → N">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-7" edge="1" parent="1" source="C" style="endArrow=block;fontSize=17;" target="H">
+        <mxCell id="lex1" edge="1" parent="1" source="N1" style="endArrow=open;dashed=1;strokeWidth=1;endFill=0;edgeStyle=orthogonalEdgeStyle;" target="W1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-8" edge="1" parent="1" source="C" style="endArrow=block;fontSize=17;" target="I">
+        <mxCell id="lex2" edge="1" parent="1" source="V" style="endArrow=open;dashed=1;strokeWidth=1;endFill=0;" target="W2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R4vusbRmHsaECW1wlLZx-9" edge="1" parent="1" source="C" style="endArrow=block;fontSize=17;" target="J">
+        <mxCell id="lex3" edge="1" parent="1" source="N2" style="endArrow=open;dashed=1;strokeWidth=1;endFill=0;" target="W3" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wi4TNJ7xeb3fiIdklz0l-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1E88E5;fontStyle=1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;产生式规则&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="145" x="645" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wi4TNJ7xeb3fiIdklz0l-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;终止符&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1020" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="wi4TNJ7xeb3fiIdklz0l-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;非终止符&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="900" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="wi4TNJ7xeb3fiIdklz0l-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;起始符&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="730" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
