@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
+  <diagram name="图1-1 组合与聚合的双轴模型" id="0">
+    <mxGraphModel dx="1410" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="combAxis" edge="1" parent="1" style="endArrow=classic;strokeWidth=2;fontSize=12;" value="组合轴">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="slotS" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;" value="主语槽" vertex="1">
+          <mxGeometry height="60" width="100" x="160" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="slotV" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;" value="谓语槽" vertex="1">
+          <mxGeometry height="60" width="100" x="320" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="slotO" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;" value="宾语槽" vertex="1">
+          <mxGeometry height="60" width="100" x="480" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;" value="学生" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;" value="老师" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;" value="工人" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;" value="读" vertex="1">
+          <mxGeometry height="40" width="100" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;" value="写" vertex="1">
+          <mxGeometry height="40" width="100" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;" value="看" vertex="1">
+          <mxGeometry height="40" width="100" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="o1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;" value="书" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="o2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;" value="文章" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="o3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;" value="报" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="es1" edge="1" parent="1" source="slotS" style="dashed=1;strokeColor=#999999;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es2" edge="1" parent="1" source="slotS" style="dashed=1;strokeColor=#999999;" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3" edge="1" parent="1" source="slotS" style="dashed=1;strokeColor=#999999;" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1" edge="1" parent="1" source="slotV" style="dashed=1;strokeColor=#999999;" target="v1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev2" edge="1" parent="1" source="slotV" style="dashed=1;strokeColor=#999999;" target="v2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev3" edge="1" parent="1" source="slotV" style="dashed=1;strokeColor=#999999;" target="v3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo1" edge="1" parent="1" source="slotO" style="dashed=1;strokeColor=#999999;" target="o1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo2" edge="1" parent="1" source="slotO" style="dashed=1;strokeColor=#999999;" target="o2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eo3" edge="1" parent="1" source="slotO" style="dashed=1;strokeColor=#999999;" target="o3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrgHd35UbBZQkKbdkk6O-2" edge="1" parent="1" style="endArrow=classic;strokeWidth=2;fontSize=12;" value="聚合轴">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
+  <diagram name="计算机教育范式转变：从“怎么做”到“要什么”" id="0">
+    <mxGraphModel dx="976" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_title" parent="1" style="text;html=1;fontSize=16;fontStyle=1;align=center;" value="传统计算机教育范式&lt;br&gt;（告诉机器：怎么做）" vertex="1">
+          <mxGeometry height="40" width="160" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="t_human" parent="1" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="人" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t_lang" parent="1" style="rounded=1;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="程序语言" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t_code" parent="1" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="源程序" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t_machine" parent="1" style="rounded=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="机器" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t_e1" edge="1" parent="1" source="t_human" style="endArrow=block;html=1;" target="t_lang" value="学习&lt;div&gt;语法规则&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_e2" edge="1" parent="1" source="t_lang" style="endArrow=block;html=1;" target="t_code" value="编写&lt;div&gt;代码&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_e3" edge="1" parent="1" source="t_code" style="endArrow=block;html=1;" target="t_machine" value="编译·执行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_title" parent="1" style="text;html=1;fontSize=16;fontStyle=1;align=center;" value="大模型时代范式&lt;br&gt;（告诉机器：要什么）" vertex="1">
+          <mxGeometry height="40" width="160" x="120" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="l_human" parent="1" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="人" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="l_lang" parent="1" style="rounded=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自然语言" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="l_model" parent="1" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="大模型" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="l_machine" parent="1" style="rounded=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="机器" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="l_e1" edge="1" parent="1" source="l_human" style="endArrow=block;html=1;" target="l_lang" value="描述&lt;div&gt;需求 / 意图&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_e2" edge="1" parent="1" source="l_lang" style="endArrow=block;html=1;" target="l_model" value="Prompt&lt;div&gt;&amp;nbsp;输入&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_e3" edge="1" parent="1" source="l_model" style="endArrow=block;html=1;" target="l_machine" value="理解·生成">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

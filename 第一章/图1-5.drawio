@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
+  <diagram name="生物分类结构图" id="0">
+    <mxGraphModel dx="976" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontSize=17;" value="动物" vertex="1">
+          <mxGeometry height="50" width="120" x="500" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="哺乳动物" vertex="1">
+          <mxGeometry height="50" width="120" x="350" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="..." vertex="1">
+          <mxGeometry height="50" width="120" x="550" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="..." vertex="1">
+          <mxGeometry height="50" width="120" x="750" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="猫" vertex="1">
+          <mxGeometry height="50" width="120" x="250" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="..." vertex="1">
+          <mxGeometry height="50" width="120" x="450" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DgdMTp8vEUtPCZrhUpMi-3" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgdMTp8vEUtPCZrhUpMi-4" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgdMTp8vEUtPCZrhUpMi-5" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgdMTp8vEUtPCZrhUpMi-6" edge="1" parent="1" source="D" style="endArrow=block;fontSize=17;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgdMTp8vEUtPCZrhUpMi-8" edge="1" parent="1" source="D" style="endArrow=block;fontSize=17;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
