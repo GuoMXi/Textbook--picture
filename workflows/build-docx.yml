@@ -1,0 +1,65 @@
+name: Build DOCX
+
+on:
+  push:
+    paths:
+      - "md2docx.py"
+      - "render_mermaid_cache.py"
+      - "教材/**"
+      - "教材配图/**"
+      - "textbook_picture_repo/**"
+      - ".github/workflows/build-docx.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2 libpango-1.0-0 libgdk-pixbuf-2.0-0 shared-mime-info
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx cairosvg
+
+      - name: Render Mermaid cache
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python render_mermaid_cache.py --force
+
+      - name: Build book DOCX
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python md2docx.py --output-mode book --image-link-text
+
+      - name: Build chapter DOCX
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python md2docx.py --output-mode chapters --image-link-text
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docx-output
+          path: |
+            教材/语言结构计算.docx
+            教材/章节docx/*.docx
+          if-no-files-found: error
