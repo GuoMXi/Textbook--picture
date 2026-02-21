@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
+  <diagram name="结构四层含义的递进关系" id="0">
+    <mxGraphModel dx="849" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-11" edge="1" parent="1" source="l9qGlsZyjPFAU4PHzNsl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="l9qGlsZyjPFAU4PHzNsl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="单元层&lt;br&gt;语素 → 词 → 短语 → 句子 → 篇章" vertex="1">
+          <mxGeometry height="80" width="220" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-12" edge="1" parent="1" source="l9qGlsZyjPFAU4PHzNsl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="l9qGlsZyjPFAU4PHzNsl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关系层&lt;br&gt;主谓、动宾、修饰、并列…" vertex="1">
+          <mxGeometry height="80" width="220" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-13" edge="1" parent="1" source="l9qGlsZyjPFAU4PHzNsl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="l9qGlsZyjPFAU4PHzNsl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="属性层&lt;br&gt;词性、时态、语态、情感…" vertex="1">
+          <mxGeometry height="80" width="220" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关系层&lt;br&gt;赋值、调用、继承、依赖…" vertex="1">
+          <mxGeometry height="80" width="220" x="420" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="属性层&lt;br&gt;数据类型、作用域、可见性…" vertex="1">
+          <mxGeometry height="80" width="220" x="420" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="单元层&lt;br&gt;字符 → Token → 表达式 → 语句 → 模块" vertex="1">
+          <mxGeometry height="80" width="220" x="420" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="自然语言" vertex="1">
+          <mxGeometry height="380" width="220" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l9qGlsZyjPFAU4PHzNsl-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="程序语言" vertex="1">
+          <mxGeometry height="380" width="220" x="420" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
