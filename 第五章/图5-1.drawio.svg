@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" viewBox="0 0 1800 700">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#444"/></marker>
+    <style>
+      text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}
+      .h{font-size:22px;font-weight:700}.t{font-size:18px}.s{font-size:16px}
+    </style>
+  </defs>
+  <text x="80" y="60" class="h">语料库工作流程：从语言生活到研究应用</text>
+
+  <rect x="90" y="170" width="320" height="220" rx="12" fill="#f8cecc" stroke="#b85450" stroke-width="2"/>
+  <text x="250" y="210" text-anchor="middle" class="t">语言生活（无限）</text>
+  <text x="250" y="245" text-anchor="middle" class="s">口语 / 书面语 / 网络语言</text>
+
+  <rect x="470" y="170" width="280" height="220" rx="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2"/>
+  <text x="610" y="210" text-anchor="middle" class="t">采集</text>
+  <text x="610" y="245" text-anchor="middle" class="s">真实性 / 代表性 / 平衡性</text>
+
+  <rect x="810" y="120" width="420" height="320" rx="12" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="1020" y="160" text-anchor="middle" class="t">语料库处理</text>
+  <rect x="860" y="190" width="140" height="56" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="930" y="225" text-anchor="middle" class="s">生语料</text>
+  <rect x="1040" y="190" width="140" height="56" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="1110" y="225" text-anchor="middle" class="s">分词/词性</text>
+  <rect x="860" y="290" width="140" height="56" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="930" y="325" text-anchor="middle" class="s">句法/语义</text>
+  <rect x="1040" y="290" width="140" height="56" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="1110" y="325" text-anchor="middle" class="s">熟语料</text>
+
+  <rect x="1290" y="170" width="390" height="220" rx="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="1485" y="210" text-anchor="middle" class="t">研究应用</text>
+  <text x="1485" y="245" text-anchor="middle" class="s">词频统计 / 搭配分析</text>
+  <text x="1485" y="275" text-anchor="middle" class="s">句式研究 / 语义发现</text>
+
+  <line x1="410" y1="280" x2="470" y2="280" stroke="#444" stroke-width="2.4" marker-end="url(#arr)"/>
+  <line x1="750" y1="280" x2="810" y2="280" stroke="#444" stroke-width="2.4" marker-end="url(#arr)"/>
+  <line x1="1230" y1="280" x2="1290" y2="280" stroke="#444" stroke-width="2.4" marker-end="url(#arr)"/>
+
+  <line x1="1000" y1="218" x2="1040" y2="218" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1110" y1="246" x2="930" y2="290" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1000" y1="318" x2="1040" y2="318" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="530" y="500" width="760" height="56" rx="10" fill="#f5f5f5" stroke="#666"/>
+  <text x="560" y="535" class="s">关键转换：通过结构标注把“生语料”转化为“熟语料”，使语料可检索、可统计、可建模。</text>
+</svg>

@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="控制结构" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sx" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;fontSize=18;" value="顺序结构：A→B→..." vertex="1"><mxGeometry x="120" y="120" width="500" height="300" as="geometry" /></mxCell>
+        <mxCell id="fz" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=18;" value="分支结构：条件→分支A/分支B" vertex="1"><mxGeometry x="650" y="120" width="500" height="300" as="geometry" /></mxCell>
+        <mxCell id="xh" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=18;" value="循环结构：条件为真执行循环体，否退出" vertex="1"><mxGeometry x="1180" y="120" width="500" height="300" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

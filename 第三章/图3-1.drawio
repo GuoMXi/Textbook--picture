@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="层级对应（语义分层）" id="0">
+    <mxGraphModel dx="1280" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="nl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#f8f1d9;strokeColor=#d6b656;fontStyle=1;" value="自然语言层级" vertex="1"><mxGeometry x="80" y="90" width="1640" height="220" as="geometry" /></mxCell>
+        <mxCell id="pl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontStyle=1;" value="程序语言层级" vertex="1"><mxGeometry x="80" y="390" width="1640" height="220" as="geometry" /></mxCell>
+
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="语素\n最小意义单位" vertex="1"><mxGeometry x="140" y="170" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="词汇\n概念符号化" vertex="1"><mxGeometry x="450" y="170" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" value="短语\n意义组块" vertex="1"><mxGeometry x="760" y="170" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="句子\n完整表达" vertex="1"><mxGeometry x="1070" y="170" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="篇章\n篇级组织" vertex="1"><mxGeometry x="1380" y="170" width="240" height="92" as="geometry" /></mxCell>
+
+        <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="字符\n最小书写单位" vertex="1"><mxGeometry x="140" y="470" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Token\n基本语法单元" vertex="1"><mxGeometry x="450" y="470" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="p3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" value="表达式\n计算组块" vertex="1"><mxGeometry x="760" y="470" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="p4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="语句\n完整指令" vertex="1"><mxGeometry x="1070" y="470" width="240" height="92" as="geometry" /></mxCell>
+        <mxCell id="p5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="模块\n工程组织" vertex="1"><mxGeometry x="1380" y="470" width="240" height="92" as="geometry" /></mxCell>
+
+        <mxCell id="e12" edge="1" parent="1" source="n1" target="n2" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="n2" target="n3" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e34" edge="1" parent="1" source="n3" target="n4" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e45" edge="1" parent="1" source="n4" target="n5" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="f12" edge="1" parent="1" source="p1" target="p2" style="endArrow=block;strokeWidth=2;strokeColor=#6c8ebf;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="f23" edge="1" parent="1" source="p2" target="p3" style="endArrow=block;strokeWidth=2;strokeColor=#6c8ebf;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="f34" edge="1" parent="1" source="p3" target="p4" style="endArrow=block;strokeWidth=2;strokeColor=#6c8ebf;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="f45" edge="1" parent="1" source="p4" target="p5" style="endArrow=block;strokeWidth=2;strokeColor=#6c8ebf;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="m1" edge="1" parent="1" source="n1" target="p1" style="endArrow=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#666666;" value="同层级功能对应"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="m2" edge="1" parent="1" source="n2" target="p2" style="endArrow=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#666666;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="m3" edge="1" parent="1" source="n3" target="p3" style="endArrow=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#666666;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="m4" edge="1" parent="1" source="n4" target="p4" style="endArrow=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#666666;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="m5" edge="1" parent="1" source="n5" target="p5" style="endArrow=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#666666;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=left;spacingLeft=10;" value="配色按“抽象层级”统一：红(最小单位)→橙(词汇/单元)→黄(组块)→绿(完整表达)→蓝(篇章/工程组织)。" vertex="1"><mxGeometry x="260" y="670" width="1280" height="56" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

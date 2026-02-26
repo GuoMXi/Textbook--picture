@@ -1,0 +1,17 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="成分结构" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=20;" value="句子" vertex="1"><mxGeometry x="760" y="90" width="260" height="60" as="geometry" /></mxCell>
+        <mxCell id="zy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;fontSize=17;" value="主语" vertex="1"><mxGeometry x="560" y="200" width="180" height="56" as="geometry" /></mxCell>
+        <mxCell id="wy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=17;" value="谓语" vertex="1"><mxGeometry x="860" y="200" width="180" height="56" as="geometry" /></mxCell>
+        <mxCell id="dy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="定语：聪明的" vertex="1"><mxGeometry x="420" y="310" width="180" height="56" as="geometry" /></mxCell>
+        <mxCell id="zx1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="中心语：学生" vertex="1"><mxGeometry x="640" y="310" width="180" height="56" as="geometry" /></mxCell>
+        <mxCell id="zy2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="状语：认真地" vertex="1"><mxGeometry x="780" y="310" width="180" height="56" as="geometry" /></mxCell>
+        <mxCell id="zx2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="中心语：完成了作业" vertex="1"><mxGeometry x="1000" y="310" width="220" height="56" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

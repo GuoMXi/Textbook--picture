@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560">
+<style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}.h{font-size:24px;font-weight:700}.t{font-size:18px}</style>
+<text x="80" y="60" class="h">程序的三种基本控制结构</text>
+<rect x="120" y="120" width="500" height="300" rx="10" fill="#e8f5e9" stroke="#43a047"/>
+<text x="370.0" y="276.0" text-anchor="middle" class="t">顺序结构：A→B→...</text>
+<rect x="650" y="120" width="500" height="300" rx="10" fill="#fff3e0" stroke="#fb8c00"/>
+<text x="900.0" y="276.0" text-anchor="middle" class="t">分支结构：条件→分支A/分支B</text>
+<rect x="1180" y="120" width="500" height="300" rx="10" fill="#e3f2fd" stroke="#1e88e5"/>
+<text x="1430.0" y="276.0" text-anchor="middle" class="t">循环结构：条件为真执行循环体，否退出</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="480" viewBox="0 0 1800 480">
+<style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}.h{font-size:24px;font-weight:700}.t{font-size:18px}</style>
+<text x="80" y="60" class="h">句子的成分结构分析</text>
+<rect x="760" y="90" width="260" height="60" rx="10" fill="#e3f2fd" stroke="#1e88e5"/>
+<text x="890.0" y="126.0" text-anchor="middle" class="t">句子</text>
+<rect x="560" y="200" width="180" height="56" rx="10" fill="#e8f5e9" stroke="#43a047"/>
+<text x="650.0" y="234.0" text-anchor="middle" class="t">主语</text>
+<rect x="860" y="200" width="180" height="56" rx="10" fill="#fff3e0" stroke="#fb8c00"/>
+<text x="950.0" y="234.0" text-anchor="middle" class="t">谓语</text>
+<rect x="420" y="310" width="180" height="56" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="510.0" y="344.0" text-anchor="middle" class="t">定语：聪明的</text>
+<rect x="640" y="310" width="180" height="56" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="730.0" y="344.0" text-anchor="middle" class="t">中心语：学生</text>
+<rect x="780" y="310" width="180" height="56" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="870.0" y="344.0" text-anchor="middle" class="t">状语：认真地</text>
+<rect x="1000" y="310" width="220" height="56" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="1110.0" y="344.0" text-anchor="middle" class="t">中心语：完成了作业</text>
+</svg>

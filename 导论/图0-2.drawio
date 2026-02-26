@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="图0-2 自然语言与程序语言的结构三要素对应" id="0">
+    <mxGraphModel dx="1280" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="nl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#f8f1d9;strokeColor=#d6b656;fontStyle=1;" value="自然语言：&quot;学生读书&quot;" vertex="1">
+          <mxGeometry x="130" y="60" width="610" height="540" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontStyle=1;" value="程序语言：student.read(book)" vertex="1">
+          <mxGeometry x="860" y="60" width="610" height="540" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nl_unit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=12;" value="&lt;b&gt;单元 Unit&lt;/b&gt;&lt;br&gt;学生 / 读 / 书" vertex="1">
+          <mxGeometry x="170" y="160" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nl_rel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=12;" value="&lt;b&gt;关系 Relation&lt;/b&gt;&lt;br&gt;学生 --主谓(SBV)--&amp;gt; 读&lt;br&gt;读 --动宾(VOB)--&amp;gt; 书" vertex="1">
+          <mxGeometry x="170" y="300" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nl_attr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=12;" value="&lt;b&gt;属性 Attribute&lt;/b&gt;&lt;br&gt;学生[名词] / 读[动词] / 书[名词]" vertex="1">
+          <mxGeometry x="170" y="460" width="530" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pl_unit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=12;" value="&lt;b&gt;单元 Unit&lt;/b&gt;&lt;br&gt;student / read / book" vertex="1">
+          <mxGeometry x="900" y="160" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pl_rel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=12;" value="&lt;b&gt;关系 Relation&lt;/b&gt;&lt;br&gt;student --调用者--&amp;gt; read&lt;br&gt;read --参数--&amp;gt; book" vertex="1">
+          <mxGeometry x="900" y="300" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pl_attr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=12;" value="&lt;b&gt;属性 Attribute&lt;/b&gt;&lt;br&gt;student[对象] / read[方法] / book[参数]" vertex="1">
+          <mxGeometry x="900" y="460" width="530" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="map_u" edge="1" parent="1" source="nl_unit" target="pl_unit" style="endArrow=block;endFill=1;strokeWidth=2;dashed=1;dashPattern=8 8;strokeColor=#6c8ebf;html=1;" value="要素对应" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="map_r" edge="1" parent="1" source="nl_rel" target="pl_rel" style="endArrow=block;endFill=1;strokeWidth=2;dashed=1;dashPattern=8 8;strokeColor=#9673a6;html=1;" value="结构对应" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="map_a" edge="1" parent="1" source="nl_attr" target="pl_attr" style="endArrow=block;endFill=1;strokeWidth=2;dashed=1;dashPattern=8 8;strokeColor=#6c8ebf;html=1;" value="特征对应" >
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=10;" value="说明：表达形式不同，但都可从&lt;b&gt;单元-关系-属性&lt;/b&gt;三要素进行结构化分析。" vertex="1">
+          <mxGeometry x="360" y="640" width="880" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="词性分类" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=20;" value="词" vertex="1"><mxGeometry x="760" y="80" width="280" height="60" as="geometry" /></mxCell>
+        <mxCell id="sw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;fontSize=18;" value="实词" vertex="1"><mxGeometry x="430" y="180" width="360" height="60" as="geometry" /></mxCell>
+        <mxCell id="xw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=18;" value="虚词" vertex="1"><mxGeometry x="980" y="180" width="360" height="60" as="geometry" /></mxCell>
+        <mxCell id="s0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="名词" vertex="1"><mxGeometry x="180" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="动词" vertex="1"><mxGeometry x="390" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="形容词" vertex="1"><mxGeometry x="600" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="数词" vertex="1"><mxGeometry x="810" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="量词" vertex="1"><mxGeometry x="1020" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="代词" vertex="1"><mxGeometry x="1230" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="s6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="副词" vertex="1"><mxGeometry x="1440" y="300" width="170" height="54" as="geometry" /></mxCell>
+        <mxCell id="x0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="介词" vertex="1"><mxGeometry x="920" y="380" width="160" height="54" as="geometry" /></mxCell>
+        <mxCell id="x1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="连词" vertex="1"><mxGeometry x="1100" y="380" width="160" height="54" as="geometry" /></mxCell>
+        <mxCell id="x2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="助词" vertex="1"><mxGeometry x="1280" y="380" width="160" height="54" as="geometry" /></mxCell>
+        <mxCell id="x3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=16;" value="语气词" vertex="1"><mxGeometry x="1460" y="380" width="160" height="54" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

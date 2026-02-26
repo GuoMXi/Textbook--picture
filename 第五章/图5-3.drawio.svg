@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="920" viewBox="0 0 1800 920">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#444"/></marker>
+    <style>
+      text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}
+      .h{font-size:22px;font-weight:700}.t{font-size:17px}.s{font-size:15px}
+    </style>
+  </defs>
+  <text x="80" y="60" class="h">典型语料库的目录结构</text>
+
+  <rect x="800" y="90" width="200" height="56" rx="10" fill="#e3f2fd" stroke="#1e88e5"/><text x="900" y="125" text-anchor="middle" class="t">corpus/</text>
+
+  <rect x="280" y="220" width="230" height="70" rx="10" fill="#f8cecc" stroke="#b85450"/><text x="395" y="262" text-anchor="middle" class="t">metadata.json</text>
+  <rect x="620" y="220" width="230" height="70" rx="10" fill="#ffe6cc" stroke="#d79b00"/><text x="735" y="262" text-anchor="middle" class="t">sources/</text>
+  <rect x="950" y="220" width="230" height="70" rx="10" fill="#fff2cc" stroke="#d6b656"/><text x="1065" y="262" text-anchor="middle" class="t">processed/</text>
+  <rect x="1290" y="220" width="230" height="70" rx="10" fill="#d5e8d4" stroke="#82b366"/><text x="1405" y="262" text-anchor="middle" class="t">index/</text>
+
+  <rect x="560" y="360" width="170" height="60" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="645" y="396" text-anchor="middle" class="t">news/</text>
+  <rect x="760" y="360" width="170" height="60" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="845" y="396" text-anchor="middle" class="t">literature/</text>
+  <rect x="980" y="360" width="170" height="60" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="1065" y="396" text-anchor="middle" class="t">sentences.jsonl</text>
+  <rect x="1180" y="360" width="170" height="60" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="1265" y="396" text-anchor="middle" class="t">tokens.jsonl</text>
+  <rect x="1380" y="360" width="170" height="60" rx="10" fill="#fff9e6" stroke="#d6b656"/><text x="1465" y="396" text-anchor="middle" class="t">parsed.jsonl</text>
+
+  <rect x="560" y="500" width="170" height="56" rx="10" fill="#fce4ec" stroke="#d81b60"/><text x="645" y="535" text-anchor="middle" class="t">2024-01.txt</text>
+  <rect x="760" y="500" width="170" height="56" rx="10" fill="#fce4ec" stroke="#d81b60"/><text x="845" y="535" text-anchor="middle" class="t">novel1.txt</text>
+  <rect x="1290" y="360" width="230" height="60" rx="10" fill="#f1fbf2" stroke="#82b366"/><text x="1405" y="396" text-anchor="middle" class="t">...</text>
+
+  <line x1="900" y1="146" x2="395" y2="220" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="900" y1="146" x2="735" y2="220" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="900" y1="146" x2="1065" y2="220" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="900" y1="146" x2="1405" y2="220" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+
+  <line x1="735" y1="290" x2="645" y2="360" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="735" y1="290" x2="845" y2="360" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1065" y1="290" x2="1065" y2="360" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1065" y1="290" x2="1265" y2="360" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1065" y1="290" x2="1465" y2="360" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+
+  <line x1="645" y1="420" x2="645" y2="500" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="845" y1="420" x2="845" y2="500" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+</svg>

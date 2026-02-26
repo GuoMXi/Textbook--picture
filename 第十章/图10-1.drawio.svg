@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#444"/></marker>
+    <style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937} .n{font-size:22px;font-weight:600} .s{font-size:16px}</style>
+  </defs>
+  <rect x="120" y="70" width="1360" height="700" rx="12" fill="#f5f5f5" stroke="#666"/>
+  <text x="800" y="110" text-anchor="middle" class="s">结构化示意</text>
+  <rect x="220" y="180" width="300" height="90" rx="10" fill="#f8cecc" stroke="#b85450"/><text x="370" y="235" text-anchor="middle" class="n">人类（理性结构）</text>
+  <rect x="650" y="180" width="300" height="90" rx="10" fill="#ffe6cc" stroke="#d79b00"/><text x="800" y="235" text-anchor="middle" class="n">概念系统</text>
+  <rect x="1080" y="180" width="300" height="90" rx="10" fill="#fff2cc" stroke="#d6b656"/><text x="1230" y="235" text-anchor="middle" class="n">离散边界 · 层次分类 · 可定义判断</text>
+  <rect x="220" y="480" width="300" height="90" rx="10" fill="#d5e8d4" stroke="#82b366"/><text x="370" y="535" text-anchor="middle" class="n">推理方式</text>
+  <rect x="650" y="480" width="300" height="90" rx="10" fill="#dae8fc" stroke="#6c8ebf"/><text x="800" y="535" text-anchor="middle" class="n">规则演绎 · 可解释追溯 · 知道对错</text>
+  <rect x="1080" y="480" width="300" height="90" rx="10" fill="#e1d5e7" stroke="#9673a6"/><text x="1230" y="535" text-anchor="middle" class="n">知识组织</text>
+  <line x1="520" y1="225" x2="650" y2="225" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="950" y1="225" x2="1080" y2="225" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1230" y1="270" x2="1230" y2="480" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="1080" y1="525" x2="950" y2="525" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="650" y1="525" x2="520" y2="525" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+</svg>

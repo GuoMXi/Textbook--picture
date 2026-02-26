@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="歧义句两种结构" id="0">
+    <mxGraphModel dx="1280" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="g1" parent="1" style="swimlane;horizontal=0;html=1;startSize=42;fillColor=#fff3e0;strokeColor=#d79b00;fontStyle=1;" value="理解一：[咬死了猎人]的狗（定语修饰“狗”）" vertex="1"><mxGeometry x="80" y="70" width="780" height="980" as="geometry" /></mxCell>
+        <mxCell id="g2" parent="1" style="swimlane;horizontal=0;html=1;startSize=42;fillColor=#e3f2fd;strokeColor=#1e88e5;fontStyle=1;" value="理解二：咬死了[猎人的狗]（“狗”作宾语）" vertex="1"><mxGeometry x="940" y="70" width="780" height="980" as="geometry" /></mxCell>
+
+        <mxCell id="a1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;" value="NP（名词短语）" vertex="1"><mxGeometry x="360" y="160" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="a2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d79b00;fontSize=16;" value="定语" vertex="1"><mxGeometry x="230" y="290" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="a3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d79b00;fontSize=16;" value="中心语" vertex="1"><mxGeometry x="560" y="290" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="a4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" value="VP（动词短语）" vertex="1"><mxGeometry x="180" y="420" width="250" height="56" as="geometry" /></mxCell>
+        <mxCell id="a5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=16;" value="咬死了" vertex="1"><mxGeometry x="130" y="550" width="130" height="52" as="geometry" /></mxCell>
+        <mxCell id="a6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=16;" value="猎人" vertex="1"><mxGeometry x="340" y="550" width="130" height="52" as="geometry" /></mxCell>
+        <mxCell id="a7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#8e24aa;fontSize=16;" value="狗" vertex="1"><mxGeometry x="575" y="550" width="120" height="52" as="geometry" /></mxCell>
+
+        <mxCell id="b1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1e88e5;fontSize=18;" value="VP（动词短语）" vertex="1"><mxGeometry x="1220" y="160" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="b2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=16;" value="咬死了" vertex="1"><mxGeometry x="1080" y="290" width="140" height="52" as="geometry" /></mxCell>
+        <mxCell id="b3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf6ff;strokeColor=#1e88e5;fontSize=16;" value="NP（名词短语）" vertex="1"><mxGeometry x="1380" y="290" width="220" height="52" as="geometry" /></mxCell>
+        <mxCell id="b4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf6ff;strokeColor=#1e88e5;fontSize=16;" value="定语" vertex="1"><mxGeometry x="1310" y="420" width="130" height="52" as="geometry" /></mxCell>
+        <mxCell id="b5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf6ff;strokeColor=#1e88e5;fontSize=16;" value="中心语" vertex="1"><mxGeometry x="1510" y="420" width="130" height="52" as="geometry" /></mxCell>
+        <mxCell id="b6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=16;" value="猎人" vertex="1"><mxGeometry x="1310" y="550" width="130" height="52" as="geometry" /></mxCell>
+        <mxCell id="b7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#8e24aa;fontSize=16;" value="狗" vertex="1"><mxGeometry x="1510" y="550" width="130" height="52" as="geometry" /></mxCell>
+
+        <mxCell id="ea1" edge="1" parent="1" source="a1" target="a2" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ea2" edge="1" parent="1" source="a1" target="a3" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ea3" edge="1" parent="1" source="a2" target="a4" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ea4" edge="1" parent="1" source="a4" target="a5" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ea5" edge="1" parent="1" source="a4" target="a6" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ea6" edge="1" parent="1" source="a3" target="a7" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="eb1" edge="1" parent="1" source="b1" target="b2" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb2" edge="1" parent="1" source="b1" target="b3" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb3" edge="1" parent="1" source="b3" target="b4" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb4" edge="1" parent="1" source="b3" target="b5" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb5" edge="1" parent="1" source="b4" target="b6" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb6" edge="1" parent="1" source="b5" target="b7" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="tip" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=left;spacingLeft=10;" value="同一表面形式对应两棵不同句法树，导致不同语义解释（结构歧义）。" vertex="1"><mxGeometry x="500" y="1080" width="800" height="56" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

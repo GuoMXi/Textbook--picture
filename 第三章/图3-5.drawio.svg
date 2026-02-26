@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560">
+<style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}.h{font-size:24px;font-weight:700}.t{font-size:18px}</style>
+<text x="80" y="60" class="h">表达式 3+5×2 的抽象语法树</text>
+<rect x="800" y="120" width="160" height="60" rx="10" fill="#fce4ec" stroke="#d81b60"/>
+<text x="880.0" y="156.0" text-anchor="middle" class="t">+</text>
+<rect x="620" y="260" width="120" height="56" rx="10" fill="#fff2cc" stroke="#d6b656"/>
+<text x="680.0" y="294.0" text-anchor="middle" class="t">3</text>
+<rect x="920" y="260" width="160" height="60" rx="10" fill="#e3f2fd" stroke="#1e88e5"/>
+<text x="1000.0" y="296.0" text-anchor="middle" class="t">*</text>
+<rect x="860" y="380" width="120" height="56" rx="10" fill="#fff2cc" stroke="#d6b656"/>
+<text x="920.0" y="414.0" text-anchor="middle" class="t">5</text>
+<rect x="1020" y="380" width="120" height="56" rx="10" fill="#fff2cc" stroke="#d6b656"/>
+<text x="1080.0" y="414.0" text-anchor="middle" class="t">2</text>
+</svg>

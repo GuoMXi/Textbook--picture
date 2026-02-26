@@ -1,0 +1,18 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="模块结构" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=20;" value="my_project/" vertex="1"><mxGeometry x="760" y="80" width="300" height="60" as="geometry" /></mxCell>
+        <mxCell id="main" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="main.py" vertex="1"><mxGeometry x="210" y="200" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="utils" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="utils/" vertex="1"><mxGeometry x="510" y="200" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="models" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="models/" vertex="1"><mxGeometry x="810" y="200" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="tests" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=16;" value="tests/" vertex="1"><mxGeometry x="1110" y="200" width="220" height="56" as="geometry" /></mxCell>
+        <mxCell id="u2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=14;" value="__init__.py / string_utils.py / math_utils.py" vertex="1"><mxGeometry x="480" y="320" width="280" height="56" as="geometry" /></mxCell>
+        <mxCell id="m2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=14;" value="__init__.py / user.py / product.py" vertex="1"><mxGeometry x="780" y="320" width="280" height="56" as="geometry" /></mxCell>
+        <mxCell id="t2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#fb8c00;fontSize=14;" value="test_utils.py" vertex="1"><mxGeometry x="1080" y="320" width="280" height="56" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

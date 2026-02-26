@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 z" fill="#444"/>
+    </marker>
+    <style>
+      text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}
+      .h{font-size:24px;font-weight:700}
+      .t{font-size:20px}
+      .s{font-size:18px}
+    </style>
+  </defs>
+
+  <rect x="300" y="80" width="1000" height="220" rx="12" fill="#fff3e0" stroke="#d79b00" stroke-width="2"/>
+  <text x="330" y="125" class="h">功能平面（语用）</text>
+  <rect x="360" y="140" width="880" height="60" rx="10" fill="#fff9e6" stroke="#d79b00"/>
+  <text x="800" y="177" text-anchor="middle" class="t">为什么说？说给谁？要达成什么？</text>
+  <rect x="460" y="215" width="680" height="55" rx="10" fill="#fff9e6" stroke="#d79b00"/>
+  <text x="800" y="248" text-anchor="middle" class="s">言语行为 · 信息焦点 · 会话含义</text>
+
+  <rect x="300" y="360" width="1000" height="220" rx="12" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
+  <text x="330" y="405" class="h">内容平面（语义）</text>
+  <rect x="360" y="420" width="880" height="60" rx="10" fill="#edf6ff" stroke="#1e88e5"/>
+  <text x="800" y="457" text-anchor="middle" class="t">说什么？表达什么意义？什么命题？</text>
+  <rect x="460" y="495" width="680" height="55" rx="10" fill="#edf6ff" stroke="#1e88e5"/>
+  <text x="800" y="528" text-anchor="middle" class="s">概念 · 命题 · 事件结构 · 语义关系</text>
+
+  <rect x="300" y="640" width="1000" height="220" rx="12" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
+  <text x="330" y="685" class="h">形式平面（语法）</text>
+  <rect x="360" y="700" width="880" height="60" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+  <text x="800" y="737" text-anchor="middle" class="t">怎么说？用什么词序？什么句式？</text>
+  <rect x="460" y="775" width="680" height="55" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+  <text x="800" y="808" text-anchor="middle" class="s">词序 · 搭配 · 句式 · 语法标记</text>
+
+  <line x1="800" y1="300" x2="800" y2="360" stroke="#444" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="800" y1="580" x2="800" y2="640" stroke="#444" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="860" y="336" class="s">决定表达选择</text>
+  <text x="860" y="616" class="s">通过形式表达</text>
+</svg>

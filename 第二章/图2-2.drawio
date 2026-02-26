@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="Python程序语法结构树" id="0">
+    <mxGraphModel dx="1180" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=18;fontStyle=1;" value="程序结构" vertex="1"><mxGeometry x="690" y="80" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;fontSize=17;" value="for语句" vertex="1"><mxGeometry x="690" y="190" width="220" height="58" as="geometry" /></mxCell>
+        <mxCell id="c" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=16;" value="循环变量：i" vertex="1"><mxGeometry x="310" y="310" width="210" height="56" as="geometry" /></mxCell>
+        <mxCell id="d" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=16;" value="迭代对象：range(10)" vertex="1"><mxGeometry x="560" y="310" width="260" height="56" as="geometry" /></mxCell>
+        <mxCell id="e" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=16;" value="循环体" vertex="1"><mxGeometry x="940" y="310" width="170" height="56" as="geometry" /></mxCell>
+
+        <mxCell id="f" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#8e24aa;fontSize=16;" value="if语句" vertex="1"><mxGeometry x="940" y="430" width="170" height="56" as="geometry" /></mxCell>
+        <mxCell id="g" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=15;" value="条件：i % 2 == 0" vertex="1"><mxGeometry x="740" y="545" width="240" height="56" as="geometry" /></mxCell>
+        <mxCell id="h" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#d81b60;fontSize=15;" value="分支体" vertex="1"><mxGeometry x="1030" y="545" width="140" height="56" as="geometry" /></mxCell>
+        <mxCell id="i" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede7f6;strokeColor=#5e35b1;fontSize=15;" value="函数调用：print(i)" vertex="1"><mxGeometry x="980" y="660" width="240" height="56" as="geometry" /></mxCell>
+
+        <mxCell id="ab" edge="1" parent="1" source="a" target="b" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="bc" edge="1" parent="1" source="b" target="c" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="bd" edge="1" parent="1" source="b" target="d" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="be" edge="1" parent="1" source="b" target="e" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ef" edge="1" parent="1" source="e" target="f" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fg" edge="1" parent="1" source="f" target="g" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fh" edge="1" parent="1" source="f" target="h" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="hi" edge="1" parent="1" source="h" target="i" style="endArrow=block;strokeWidth=2;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,65 +1,66 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.3.8">
-  <diagram name="生物分类结构图" id="0">
-    <mxGraphModel dx="976" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="递归嵌套结构对比" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontStyle=1;fontSize=17;" value="生物" vertex="1">
-          <mxGeometry height="50" width="120" x="700" y="40" as="geometry" />
+
+        <mxCell id="nl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#f8f1d9;strokeColor=#d6b656;fontStyle=1;" value="自然语言递归" vertex="1">
+          <mxGeometry x="120" y="80" width="620" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontSize=17;" value="动物" vertex="1">
-          <mxGeometry height="50" width="120" x="500" y="150" as="geometry" />
+
+        <mxCell id="pl_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=36;fillColor=#d9e8fb;strokeColor=#6c8ebf;fontStyle=1;" value="程序语言递归" vertex="1">
+          <mxGeometry x="860" y="80" width="620" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;fontSize=17;" value="植物" vertex="1">
-          <mxGeometry height="50" width="120" x="900" y="150" as="geometry" />
+
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" value="我知道" vertex="1">
+          <mxGeometry x="320" y="160" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="哺乳动物" vertex="1">
-          <mxGeometry height="50" width="120" x="350" y="270" as="geometry" />
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" value="他说" vertex="1">
+          <mxGeometry x="350" y="290" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="鸟类" vertex="1">
-          <mxGeometry height="50" width="120" x="550" y="270" as="geometry" />
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" value="她相信" vertex="1">
+          <mxGeometry x="380" y="420" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="..." vertex="1">
-          <mxGeometry height="50" width="120" x="750" y="270" as="geometry" />
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" value="我们会成功" vertex="1">
+          <mxGeometry x="410" y="550" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="猫" vertex="1">
-          <mxGeometry height="50" width="120" x="250" y="390" as="geometry" />
+
+        <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" value="f( )" vertex="1">
+          <mxGeometry x="1060" y="160" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="狗" vertex="1">
-          <mxGeometry height="50" width="120" x="400" y="390" as="geometry" />
+        <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" value="g( )" vertex="1">
+          <mxGeometry x="1090" y="290" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;fontSize=17;" value="..." vertex="1">
-          <mxGeometry height="50" width="120" x="550" y="390" as="geometry" />
+        <mxCell id="p3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" value="h( )" vertex="1">
+          <mxGeometry x="1120" y="420" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;fontSize=17;" value="..." vertex="1">
-          <mxGeometry height="50" width="120" x="900" y="270" as="geometry" />
+        <mxCell id="p4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;" value="x" vertex="1">
+          <mxGeometry x="1150" y="550" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-1" edge="1" parent="1" source="A" style="endArrow=block;fontSize=17;" target="B">
+
+        <mxCell id="en12" edge="1" parent="1" source="n1" target="n2" style="endArrow=block;strokeWidth=2;html=1;" value="句子嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-2" edge="1" parent="1" source="A" style="endArrow=block;fontSize=17;" target="C">
+        <mxCell id="en23" edge="1" parent="1" source="n2" target="n3" style="endArrow=block;strokeWidth=2;html=1;" value="句子嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-3" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="D">
+        <mxCell id="en34" edge="1" parent="1" source="n3" target="n4" style="endArrow=block;strokeWidth=2;html=1;" value="句子嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-4" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="E">
+
+        <mxCell id="ep12" edge="1" parent="1" source="p1" target="p2" style="endArrow=block;strokeWidth=2;html=1;strokeColor=#6c8ebf;" value="函数调用嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-5" edge="1" parent="1" source="B" style="endArrow=block;fontSize=17;" target="F">
+        <mxCell id="ep23" edge="1" parent="1" source="p2" target="p3" style="endArrow=block;strokeWidth=2;html=1;strokeColor=#6c8ebf;" value="函数调用嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-6" edge="1" parent="1" source="D" style="endArrow=block;fontSize=17;" target="G">
+        <mxCell id="ep34" edge="1" parent="1" source="p3" target="p4" style="endArrow=block;strokeWidth=2;html=1;strokeColor=#6c8ebf;" value="函数调用嵌套" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-7" edge="1" parent="1" source="D" style="endArrow=block;fontSize=17;" target="H">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-8" edge="1" parent="1" source="D" style="endArrow=block;fontSize=17;" target="I">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DgdMTp8vEUtPCZrhUpMi-9" edge="1" parent="1" source="C" style="endArrow=block;fontSize=17;" target="J">
-          <mxGeometry relative="1" as="geometry" />
+
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=10;fontSize=16;" value="共同点：同一层级结构可递归嵌套，有限规则可生成无限深度表达。" vertex="1">
+          <mxGeometry x="300" y="860" width="1000" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

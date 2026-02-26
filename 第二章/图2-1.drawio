@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="语言结构三平面框架" id="0">
+    <mxGraphModel dx="1200" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="f_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=34;fillColor=#fff3e0;strokeColor=#d79b00;fontStyle=1;" value="功能平面（语用）" vertex="1">
+          <mxGeometry x="300" y="80" width="1000" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d79b00;fontSize=18;" value="为什么说？说给谁？要达成什么？" vertex="1">
+          <mxGeometry x="360" y="140" width="880" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d79b00;fontSize=17;" value="言语行为 · 信息焦点 · 会话含义" vertex="1">
+          <mxGeometry x="460" y="215" width="680" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=34;fillColor=#e3f2fd;strokeColor=#1e88e5;fontStyle=1;" value="内容平面（语义）" vertex="1">
+          <mxGeometry x="300" y="360" width="1000" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf6ff;strokeColor=#1e88e5;fontSize=18;" value="说什么？表达什么意义？什么命题？" vertex="1">
+          <mxGeometry x="360" y="420" width="880" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf6ff;strokeColor=#1e88e5;fontSize=17;" value="概念 · 命题 · 事件结构 · 语义关系" vertex="1">
+          <mxGeometry x="460" y="495" width="680" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="g_group" parent="1" style="swimlane;horizontal=0;html=1;startSize=34;fillColor=#e8f5e9;strokeColor=#43a047;fontStyle=1;" value="形式平面（语法）" vertex="1">
+          <mxGeometry x="300" y="640" width="1000" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=18;" value="怎么说？用什么词序？什么句式？" vertex="1">
+          <mxGeometry x="360" y="700" width="880" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1fbf2;strokeColor=#43a047;fontSize=17;" value="词序 · 搭配 · 句式 · 语法标记" vertex="1">
+          <mxGeometry x="460" y="775" width="680" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e_fs" edge="1" parent="1" source="f_group" target="s_group" style="endArrow=block;strokeWidth=2;html=1;" value="决定表达选择">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sg" edge="1" parent="1" source="s_group" target="g_group" style="endArrow=block;strokeWidth=2;html=1;" value="通过形式表达">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Codex" version="29.3.8">
+  <diagram name="四种结构形态" id="0">
+    <mxGraphModel dx="1280" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" value="集合 Set
+只关心成员" vertex="1"><mxGeometry x="90" y="140" width="360" height="220" as="geometry"/></mxCell>
+        <mxCell id="b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;" value="序列 Sequence
+增加顺序" vertex="1"><mxGeometry x="510" y="140" width="360" height="220" as="geometry"/></mxCell>
+        <mxCell id="c" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" value="树 Tree
+增加层次" vertex="1"><mxGeometry x="930" y="140" width="360" height="220" as="geometry"/></mxCell>
+        <mxCell id="d" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" value="图 Graph
+允许多路径关系" vertex="1"><mxGeometry x="1350" y="140" width="360" height="220" as="geometry"/></mxCell>
+      </root></mxGraphModel></diagram></mxfile>

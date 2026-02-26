@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="520" viewBox="0 0 1800 520">
+<style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}.h{font-size:24px;font-weight:700}.t{font-size:18px}</style>
+<text x="80" y="60" class="h">汉语词性分类系统</text>
+<rect x="760" y="80" width="280" height="60" rx="10" fill="#e3f2fd" stroke="#1e88e5"/>
+<text x="900.0" y="116.0" text-anchor="middle" class="t">词</text>
+<rect x="430" y="180" width="360" height="60" rx="10" fill="#e8f5e9" stroke="#43a047"/>
+<text x="610.0" y="216.0" text-anchor="middle" class="t">实词</text>
+<rect x="980" y="180" width="360" height="60" rx="10" fill="#fff3e0" stroke="#fb8c00"/>
+<text x="1160.0" y="216.0" text-anchor="middle" class="t">虚词</text>
+<rect x="180" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="265.0" y="333.0" text-anchor="middle" class="t">名词</text>
+<rect x="390" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="475.0" y="333.0" text-anchor="middle" class="t">动词</text>
+<rect x="600" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="685.0" y="333.0" text-anchor="middle" class="t">形容词</text>
+<rect x="810" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="895.0" y="333.0" text-anchor="middle" class="t">数词</text>
+<rect x="1020" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="1105.0" y="333.0" text-anchor="middle" class="t">量词</text>
+<rect x="1230" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="1315.0" y="333.0" text-anchor="middle" class="t">代词</text>
+<rect x="1440" y="300" width="170" height="54" rx="10" fill="#f1fbf2" stroke="#43a047"/>
+<text x="1525.0" y="333.0" text-anchor="middle" class="t">副词</text>
+<rect x="920" y="380" width="160" height="54" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="1000.0" y="413.0" text-anchor="middle" class="t">介词</text>
+<rect x="1100" y="380" width="160" height="54" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="1180.0" y="413.0" text-anchor="middle" class="t">连词</text>
+<rect x="1280" y="380" width="160" height="54" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="1360.0" y="413.0" text-anchor="middle" class="t">助词</text>
+<rect x="1460" y="380" width="160" height="54" rx="10" fill="#fff9e6" stroke="#fb8c00"/>
+<text x="1540.0" y="413.0" text-anchor="middle" class="t">语气词</text>
+</svg>

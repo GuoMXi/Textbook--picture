@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="760" viewBox="0 0 1700 760">
+  <defs>
+    <style>
+      text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}
+      .h{font-size:22px;font-weight:700}.t{font-size:18px}.s{font-size:16px}
+    </style>
+  </defs>
+  <text x="80" y="60" class="h">分布假说：语境分布决定语义类别</text>
+
+  <rect x="640" y="120" width="420" height="220" rx="12" fill="#fff3e0" stroke="#d79b00" stroke-width="2"/>
+  <text x="850" y="160" text-anchor="middle" class="t">语境框架</text>
+  <rect x="680" y="190" width="150" height="54" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="755" y="224" text-anchor="middle" class="s">X 很好吃</text>
+  <rect x="870" y="190" width="150" height="54" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="945" y="224" text-anchor="middle" class="s">买了一些 X</text>
+  <rect x="680" y="260" width="150" height="54" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="755" y="294" text-anchor="middle" class="s">X 很结实</text>
+  <rect x="870" y="260" width="150" height="54" rx="10" fill="#fff9e6" stroke="#d79b00"/><text x="945" y="294" text-anchor="middle" class="s">搬动 X</text>
+
+  <rect x="140" y="420" width="520" height="220" rx="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="400" y="460" text-anchor="middle" class="t">水果类</text>
+  <rect x="200" y="520" width="150" height="56" rx="10" fill="#e8f5e9" stroke="#43a047"/><text x="275" y="555" text-anchor="middle" class="s">苹果</text>
+  <rect x="450" y="520" width="150" height="56" rx="10" fill="#e8f5e9" stroke="#43a047"/><text x="525" y="555" text-anchor="middle" class="s">香蕉</text>
+
+  <rect x="1040" y="420" width="520" height="220" rx="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="1300" y="460" text-anchor="middle" class="t">家具类</text>
+  <rect x="1100" y="520" width="150" height="56" rx="10" fill="#edf6ff" stroke="#6c8ebf"/><text x="1175" y="555" text-anchor="middle" class="s">桌子</text>
+  <rect x="1350" y="520" width="150" height="56" rx="10" fill="#edf6ff" stroke="#6c8ebf"/><text x="1425" y="555" text-anchor="middle" class="s">椅子</text>
+
+  <line x1="275" y1="520" x2="755" y2="244" stroke="#43a047" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="275" y1="520" x2="945" y2="244" stroke="#43a047" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="525" y1="520" x2="755" y2="244" stroke="#43a047" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="525" y1="520" x2="945" y2="244" stroke="#43a047" stroke-dasharray="8 6" stroke-width="2"/>
+
+  <line x1="1175" y1="520" x2="755" y2="314" stroke="#6c8ebf" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="1175" y1="520" x2="945" y2="314" stroke="#6c8ebf" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="1425" y1="520" x2="755" y2="314" stroke="#6c8ebf" stroke-dasharray="8 6" stroke-width="2"/>
+  <line x1="1425" y1="520" x2="945" y2="314" stroke="#6c8ebf" stroke-dasharray="8 6" stroke-width="2"/>
+
+  <rect x="430" y="680" width="850" height="52" rx="10" fill="#f5f5f5" stroke="#666"/>
+  <text x="460" y="712" class="s">同类词共享相似语境分布，因此在向量空间中更接近，形成语义聚类。</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1030" viewBox="0 0 1800 1030">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 z" fill="#444"/></marker>
+    <marker id="arrP" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,4 L0,8 z" fill="#1e88e5"/></marker>
+    <style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#1f2937}.h{font-size:22px;font-weight:700}.n{font-size:18px}.s{font-size:15px}</style>
+  </defs>
+
+  <rect x="80" y="90" width="760" height="820" rx="12" fill="#fff3e0" stroke="#d79b00" stroke-width="2"/>
+  <rect x="960" y="90" width="760" height="820" rx="12" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
+  <text x="110" y="130" class="h">语言学句法树</text>
+  <text x="990" y="130" class="h">程序AST</text>
+
+  <ellipse cx="460" cy="210" rx="40" ry="40" fill="#ffe6cc" stroke="#d79b00"/><text x="460" y="216" text-anchor="middle" class="n">S</text>
+  <ellipse cx="325" cy="355" rx="45" ry="35" fill="#fff2cc" stroke="#d6b656"/><text x="325" y="361" text-anchor="middle" class="n">NP</text>
+  <ellipse cx="585" cy="355" rx="45" ry="35" fill="#fff2cc" stroke="#d6b656"/><text x="585" y="361" text-anchor="middle" class="n">VP</text>
+  <rect x="250" y="490" width="150" height="58" rx="10" fill="#f8cecc" stroke="#b85450"/><text x="325" y="525" text-anchor="middle" class="n">学生</text>
+  <rect x="515" y="490" width="140" height="58" rx="10" fill="#d5e8d4" stroke="#82b366"/><text x="585" y="525" text-anchor="middle" class="n">读</text>
+  <ellipse cx="710" cy="525" rx="45" ry="35" fill="#fff2cc" stroke="#d6b656"/><text x="710" y="531" text-anchor="middle" class="n">NP</text>
+  <rect x="640" y="635" width="140" height="58" rx="10" fill="#dae8fc" stroke="#6c8ebf"/><text x="710" y="670" text-anchor="middle" class="n">书</text>
+
+  <ellipse cx="1350" cy="210" rx="50" ry="40" fill="#dae8fc" stroke="#1e88e5"/><text x="1350" y="216" text-anchor="middle" class="n">Expr</text>
+  <ellipse cx="1225" cy="355" rx="45" ry="35" fill="#fff2cc" stroke="#d6b656"/><text x="1225" y="361" text-anchor="middle" class="n">Var</text>
+  <ellipse cx="1445" cy="355" rx="55" ry="35" fill="#fff2cc" stroke="#d6b656"/><text x="1445" y="361" text-anchor="middle" class="n">BinOp</text>
+  <rect x="1140" y="490" width="120" height="58" rx="10" fill="#f8cecc" stroke="#b85450"/><text x="1200" y="525" text-anchor="middle" class="n">x</text>
+  <ellipse cx="1385" cy="525" rx="35" ry="35" fill="#d5e8d4" stroke="#82b366"/><text x="1385" y="531" text-anchor="middle" class="n">+</text>
+  <rect x="1480" y="490" width="120" height="58" rx="10" fill="#dae8fc" stroke="#6c8ebf"/><text x="1540" y="525" text-anchor="middle" class="n">3</text>
+  <rect x="1325" y="630" width="120" height="58" rx="10" fill="#f8cecc" stroke="#b85450"/><text x="1385" y="665" text-anchor="middle" class="n">y</text>
+
+  <line x1="450" y1="248" x2="342" y2="323" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="470" y1="248" x2="568" y2="323" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="325" y1="390" x2="325" y2="490" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="585" y1="390" x2="585" y2="490" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="610" y1="382" x2="695" y2="495" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="710" y1="560" x2="710" y2="635" stroke="#444" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <line x1="1342" y1="248" x2="1240" y2="323" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+  <line x1="1358" y1="248" x2="1430" y2="323" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+  <line x1="1225" y1="390" x2="1200" y2="490" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+  <line x1="1430" y1="388" x2="1395" y2="492" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+  <line x1="1460" y1="388" x2="1530" y2="490" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+  <line x1="1385" y1="560" x2="1385" y2="630" stroke="#1e88e5" stroke-width="2.2" marker-end="url(#arrP)"/>
+
+  <line x1="500" y1="210" x2="1300" y2="210" stroke="#666" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="370" y1="355" x2="1180" y2="355" stroke="#666" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="620" y1="355" x2="1390" y2="355" stroke="#666" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="900" y="190" text-anchor="middle" class="s">根节点</text>
+  <text x="760" y="338" text-anchor="middle" class="s">叶子由变量/词承载</text>
+  <text x="1010" y="338" text-anchor="middle" class="s">内部节点组织组合</text>
+
+  <rect x="260" y="950" width="1280" height="56" rx="10" fill="#f5f5f5" stroke="#666"/>
+  <text x="280" y="985" class="s">两侧都遵循“根节点→中间组合节点→叶节点”的层级组织；区别在于左侧是语法范畴，右侧是运算/变量节点。</text>
+</svg>
